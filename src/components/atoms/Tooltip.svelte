@@ -26,7 +26,7 @@
 	.tooltip-wrapper {
 		position: relative;
 		display: inline-block;
-		
+
 		&:hover .tooltip {
 			opacity: 1;
 			visibility: initial;

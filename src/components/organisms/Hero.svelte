@@ -13,7 +13,10 @@
 <section id="home" class="wrapper">
 	<div>
 		<h1>ﾒweり</h1>
-		<h5>"Bringing Linux to Life, One Byte at a Time through Tech Tinkering!"<br />Attempting to program.</h5>
+		<h5>
+			"Bringing Linux to Life, One Byte at a Time through Tech Tinkering!"<br />Attempting to
+			program.
+		</h5>
 		<div class="socials">
 			<Socials />
 		</div>
@@ -51,14 +54,17 @@
 		margin-bottom: 1.7rem;
 	}
 
-
 	h1::before {
 		@include outlineText($content: '▒', $translateX: -125%, $letterSpacing: -0.1em);
 	}
 	section::after {
-		@include outlineText($content: '〘', $translateX: 600%, $translateY: -110%, $letterSpacing: -0.1em);
+		@include outlineText(
+			$content: '〘',
+			$translateX: 600%,
+			$translateY: -110%,
+			$letterSpacing: -0.1em
+		);
 	}
-
 
 	@media screen and (max-width: 1240px) {
 		h1 {

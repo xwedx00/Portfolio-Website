@@ -8,5 +8,5 @@ export interface Repo {
 	language: string;
 	languageColor: string;
 	stars: string;
-	forks: any;
+	forks: number;
 }

@@ -18,7 +18,8 @@
 </script>
 
 <div class="img-container">
-	<div
+	<img
+		alt="pussy"
 		on:mousemove={enterRotate3D}
 		on:mouseleave={leaveRotate3D}
 		class="img"
@@ -41,7 +42,7 @@
 	}
 
 	.img {
-		border-radius: 500px ;
+		border-radius: 500px;
 		width: 500px;
 		height: 500px;
 		z-index: 1;

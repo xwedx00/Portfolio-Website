@@ -34,7 +34,7 @@
 
 		const classes = document.querySelector('body')?.classList;
 		const stopResizeAnimation = () => {
-			let timer: any = 0;
+			let timer: number | null = null;
 			window.addEventListener('resize', function () {
 				if (timer) {
 					clearTimeout(timer);

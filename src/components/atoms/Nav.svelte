@@ -47,12 +47,11 @@
 		border-radius: 100px;
 		cursor: pointer;
 		transition: background-color 0.3s var(--bezier-one), transform 0.3s var(--bezier-one);
-		
+
 		&:hover {
 			background-color: var(--neutral-four);
 		}
 	}
-
 
 	h5 {
 		transition: all 0.3s var(--bezier-one);

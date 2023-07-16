@@ -19,19 +19,19 @@
 	<div class="text">
 		<h3>Bio</h3>
 		<p>
-			Hey there, I'm Umar! I'm <Tooltip tip={age}
-				><span>{Math.floor(Number(age))}</span></Tooltip
-			>
-			 . I've been tinkering with operating systems and obsessing over efficiency and performance of processes, and services since I've gained concinous. until 
-			<span>2017</span>, until then it was just with random linux services and then it eventually turned into Linux Customizations from which I've learned alot and somewhere around <span>2020</span>.
-			however, I’ve grown a knack for programming. I like contributing to
+			Hey there, I'm Umar! I'm <Tooltip tip={age}><span>{Math.floor(Number(age))}</span></Tooltip>
+			. I've been tinkering with operating systems and obsessing over efficiency and performance of processes,
+			and services since I've gained concinous. until
+			<span>2017</span>, until then it was just with random linux services and then it eventually
+			turned into Linux Customizations from which I've learned alot and somewhere around
+			<span>2020</span>. however, I’ve grown a knack for programming. I like contributing to
 			<Tooltip tip="He's Lying he hasn't Contributed To ANYTHING">
 				<a href="https://github.com/xwedx00" target="_blank" rel="noreferrer">
 					<span>open source</span>
 				</a>
 			</Tooltip>
-			as a developer, which is probably the reason why you've ended up here. Currently struggling
-			with Svelte and Typescript.
+			as a developer, which is probably the reason why you've ended up here. Currently struggling with
+			Svelte and Typescript.
 		</p>
 	</div>
 </section>
@@ -68,11 +68,14 @@
 	}
 
 	.text::before {
-		@include outlineText($content: '╭', $translateX: 630%, $translateY: -5%, $fontSize: 150px, $opacity: 0.22);
+		@include outlineText(
+			$content: '╭',
+			$translateX: 630%,
+			$translateY: -5%,
+			$fontSize: 150px,
+			$opacity: 0.22
+		);
 	}
-
-	
-
 
 	@media (max-width: 868px) {
 		section {
@@ -80,7 +83,5 @@
 			flex-direction: column;
 			align-items: normal;
 		}
-
-		
 	}
 </style>
