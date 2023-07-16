@@ -4,7 +4,7 @@
 	import Socials from '../molecules/Socials.svelte';
 
 	function handleClick() {
-		const el = document.querySelector('#aw');
+		const el = document.querySelector('#work');
 		if (!el) return;
 		el.scrollIntoView(true);
 	}
@@ -12,7 +12,7 @@
 
 <section id="home" class="wrapper">
 	<div>
-		<h2>xwedx00</h2>
+		<h1>ﾒweり</h1>
 		<h5>"Bringing Linux to Life, One Byte at a Time through Tech Tinkering!"<br />Attempting to program.</h5>
 		<div class="socials">
 			<Socials />
@@ -51,29 +51,19 @@
 		margin-bottom: 1.7rem;
 	}
 
-	h4 {
-		margin-top: 1rem;
-	}
 
 	h1::before {
-		@include outlineText($content: '///', $translateX: -95%, $letterSpacing: -0.1em);
+		@include outlineText($content: '▒', $translateX: -125%, $letterSpacing: -0.1em);
 	}
+	section::after {
+		@include outlineText($content: '〘', $translateX: 600%, $translateY: -110%, $letterSpacing: -0.1em);
+	}
+
 
 	@media screen and (max-width: 1240px) {
 		h1 {
 			min-height: 0vw;
 			font-size: clamp(4rem, 10vw, 6.25rem);
-		}
-
-		h4 {
-			min-height: 0vw;
-			font-size: clamp(1.4rem, 2.4vw, 1.5rem);
-		}
-	}
-
-	@media screen and (max-width: 400px) {
-		h4 br {
-			content: '&#160;';
 		}
 	}
 </style>

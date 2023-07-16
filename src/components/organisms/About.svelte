@@ -17,7 +17,7 @@
 
 <section id="about" class="wrapper">
 	<div class="text">
-		<h2>bio</h2>
+		<h3>Bio</h3>
 		<p>
 			Hey there, I'm Umar! I'm <Tooltip tip={age}
 				><span>{Math.floor(Number(age))}</span></Tooltip
@@ -68,13 +68,11 @@
 	}
 
 	.text::before {
-		@include outlineText($content: 'afn', $translateX: 97%, $translateY: -5%, $fontSize: 300px, $opacity: 0.22);
+		@include outlineText($content: '╭', $translateX: 630%, $translateY: -5%, $fontSize: 150px, $opacity: 0.22);
 	}
 
-	h2 {
-		display: none;
-		margin-top: 1rem;
-	}
+	
+
 
 	@media (max-width: 868px) {
 		section {
@@ -83,9 +81,6 @@
 			align-items: normal;
 		}
 
-		h2 {
-			display: block;
-			margin-bottom: 1rem;
-		}
+		
 	}
 </style>

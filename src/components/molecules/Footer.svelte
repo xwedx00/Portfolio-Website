@@ -51,22 +51,4 @@
 		margin-left: 1rem;
 		margin-right: 0.4rem;
 	}
-
-	a {
-		transition: 0.3s var(--bezier-one);
-		font-family: var(--font-two);
-		text-decoration: none;
-		color: var(--white-two);
-		font-size: 0.9rem;
-		border-radius: 7px;
-		padding: 0.15rem 0.5rem 0.15rem;
-
-		&:hover {
-			font-weight: 400;
-			background-color: var(--yellow);
-			color: var(--neutral-one);
-			border-radius: 7px;
-			width: fit-content;
-		}
-	}
 </style>
