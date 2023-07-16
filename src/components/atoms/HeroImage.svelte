@@ -22,8 +22,8 @@
 		on:mousemove={enterRotate3D}
 		on:mouseleave={leaveRotate3D}
 		class="img"
-		style:background-image="url(x00.jpeg)"
-		style:transform="perspective(500px) {zoom ? 'scale(1.05)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
+		style:background-image="url(x00.png)"
+		style:transform="perspective(500px) {zoom ? 'scale(1)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
 	/>
 </div>
 
@@ -41,9 +41,9 @@
 	}
 
 	.img {
-		border-radius: 48px;
-		width: 425px;
-		height: 400px;
+		border-radius: 500px ;
+		width: 500px;
+		height: 500px;
 		z-index: 1;
 		display: block;
 		transition: width 0.4s var(--bezier-one), transform 0.4s var(--bezier-one);
