@@ -8,7 +8,7 @@
 		<ul>
 			<Nav href="#home" section="/" isSelected={y < 350} />
 			<Nav href="#about" section="about" isSelected={y > 350 && y < 675} />
-			<Nav href="#aw" section="work" isSelected={y > 675} />
+			<Nav href="#work" section="work" isSelected={y > 675} />
 		</ul>
 	</div>
 </nav>

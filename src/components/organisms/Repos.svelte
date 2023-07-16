@@ -5,12 +5,12 @@
 	let repos: Repo[];
 
 	onMount(async () => {
-		const response = await fetch('https://gh-pinned-repos.egoist.dev/?username=xafn');
+		const response = await fetch('https://gh-pinned-repos.egoist.dev/?username=xwedx00');
 		repos = await response.json();
 	});
 </script>
 
-<section class="wrapper" id="code">
+<section class="wrapper" id="work">
 	<div class="title">
 		<h2><span>code</span>:work</h2>
 	</div>
