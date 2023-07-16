@@ -52,3 +52,31 @@ Where
   - organisms : Actually content (Only Edit this If you don't Want to change the Styling) Pussy....
 
 You will find all the components used and you can edit your information accordingly.
+
+## To-do & Future Plans
+
+# Project Name
+Project Description
+
+### Completed Column ✓
+
+  - [x] Decide Tech-Stack
+  - [x] Choose a Build-System & Styling Framework
+  - [x] Add Deps.
+  - [x] Lay Foundation
+  - [x] Create Header/Hero
+  - [x] Create About
+  - [x] Decide Grids
+  - [x] Styling
+  - [x] Create Navigation
+  - [x] Feature Add Repos
+  - [x] Outline background Text
+
+### Updates Column x
+
+- [ ] Blog
+  - [ ] Add Deps.
+  - [ ] Pre-build Content
+  - [ ] SSR Dynamic Content Header/Hero
+  - [ ] Create Navigation
+  - [ ] Feature Add Search
