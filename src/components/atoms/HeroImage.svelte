@@ -19,7 +19,7 @@
 
 <div class="img-container">
 	<img
-		alt="pussy"
+		alt=""
 		on:mousemove={enterRotate3D}
 		on:mouseleave={leaveRotate3D}
 		class="img"
