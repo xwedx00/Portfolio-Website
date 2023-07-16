@@ -1,4 +1,4 @@
-![Screenshot from 2023-07-16 12-00-17](https://github.com/xwedx00/Portfolio-Website/assets/117844799/6a84e965-525e-4494-87cd-0b6151cf9e78)
+![Screenshot from 2023-07-17 03-49-20](https://github.com/xwedx00/Portfolio-Website/assets/117844799/00e8e2c1-c013-4944-86e8-4663b7d44991)
 
 <h3 align="center">Hey there! 👋 Oh, so you want me to copy your website, huh? Well, Welcome to the world of blatant imitation!</h3>
 
