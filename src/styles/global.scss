@@ -44,21 +44,7 @@ body.stop-transitions * {
 	transition: none !important;
 }
 
-:root {
-	--white: #eed1c7;
-	--white-two: hsl(0, 17%, 69%);
-	--yellow: #dba895;
-	--yellow-opacity: #dba8952a;
-	--bg-color: hsl(0, 11%, 8%);
-	--neutral-one: #211c1c;
-	--neutral-two: #211c1c75;
-	--neutral-three: #1e1a1a;
-	--neutral-four: rgba(123, 115, 115, 0.227);
-	--neutral-five: #1f1919ca;
-	--font-one: 'Space Grotesk', sans-serif;
-	--font-two: 'JetBrains Mono', monospace;
-	--bezier-one: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
+:root {     --white: #e0def4;      --white-two: hsl(248deg, 15%, 61%);     --yellow: #c4a7e7;     --yellow-opacity: #c4a7e7;     --bg-color: hsl(249deg, 22%, 12%);     --neutral-one: #21202e;     --neutral-two: #26233a;     --neutral-three: #26233a;     --neutral-four: hsl(267deg, 57%, 78%);     --neutral-five: #1f1d2e;     --font-one: "Space Grotesk", sans-serif;     --font-two: "JetBrains Mono", monospace;     --bezier-one: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
 ::selection {
 	background: var(--yellow-opacity);

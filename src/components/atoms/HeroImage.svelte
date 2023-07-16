@@ -19,12 +19,12 @@
 
 <div class="img-container">
 	<img
-		alt=""
+		alt = ""
 		on:mousemove={enterRotate3D}
 		on:mouseleave={leaveRotate3D}
 		class="img"
-		style:background-image="url(x00.png)"
-		style:transform="perspective(500px) {zoom ? 'scale(1)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
+		style:background-image="url(purple.gif)"
+		style:transform="perspective(500px) {zoom ? 'scale(0.9)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
 	/>
 </div>
 
@@ -42,9 +42,9 @@
 	}
 
 	.img {
-		border-radius: 500px;
-		width: 500px;
-		height: 500px;
+		border-radius: 48px;
+		width: 425px;
+		height: 400px;
 		z-index: 1;
 		display: block;
 		transition: width 0.4s var(--bezier-one), transform 0.4s var(--bezier-one);
