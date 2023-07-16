@@ -22,7 +22,7 @@
 		on:mousemove={enterRotate3D}
 		on:mouseleave={leaveRotate3D}
 		class="img"
-		style:background-image="url(art/afn.webp)"
+		style:background-image="url(x00.jpeg)"
 		style:transform="perspective(500px) {zoom ? 'scale(1.05)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
 	/>
 </div>
