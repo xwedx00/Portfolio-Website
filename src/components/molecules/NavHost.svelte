@@ -4,7 +4,7 @@
 </script>
 
 <nav>
-	<div class:scrolled={y > 200}>
+	<div class:scrolled={y > 20}>
 		<ul>
 			<Nav href="#home" section="/" isSelected={y < 350} />
 			<Nav href="#about" section="about" isSelected={y > 350 && y < 675} />
@@ -19,7 +19,7 @@
 <style lang="scss">
 	nav {
 		display: flex;
-		align-items: left;
+		align-items: center;
 		justify-content: center;
 	}
 	div {

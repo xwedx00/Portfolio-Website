@@ -1,5 +1,4 @@
 <script>
-	import RichPresence from '../molecules/RichPresence.svelte';
 	import Tooltip from '../atoms/Tooltip.svelte';
 
 	// i didnt write this idk
@@ -17,9 +16,6 @@
 </script>
 
 <section id="about" class="wrapper">
-	<div>
-		<RichPresence />
-	</div>
 	<div class="text">
 		<h2>bio</h2>
 		<p>
