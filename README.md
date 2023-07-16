@@ -55,8 +55,6 @@ You will find all the components used and you can edit your information accordin
 
 ## To-do & Future Plans
 
-# Project Name
-Project Description
 
 ### Completed Column ✓
 
@@ -72,7 +70,7 @@ Project Description
   - [x] Feature Add Repos
   - [x] Outline background Text
 
-### Updates Column x
+### Updates & Future Plans Column 
 
 - [ ] Blog
   - [ ] Add Deps.
